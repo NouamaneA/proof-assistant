@@ -1,0 +1,7 @@
+(A => B) => (not B => not A)
+intro x
+intro y
+intro z
+elim y
+elim x
+exact z

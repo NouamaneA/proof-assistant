@@ -1,0 +1,4 @@
+(T => A) => A
+intro x
+elim x
+intro
